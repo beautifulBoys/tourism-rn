@@ -10,11 +10,11 @@ import { createAction, NavigationActions } from '../utils'
 class Account extends Component {
   static navigationOptions = {
     title: 'Account',
-    tabBarLabel: 'Account',
+    tabBarLabel: '圈友',
     tabBarIcon: ({ focused, tintColor }) => (
       <Image
         style={[styles.icon, { tintColor: focused ? tintColor : 'gray' }]}
-        source={require('../images/person.png')}
+        source={require('../images/bottom_icon2.png')}
       />
     ),
   }
@@ -48,8 +48,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   icon: {
-    width: 32,
-    height: 32,
+    width: 28,
+    height: 28,
   },
 })
 

@@ -3,30 +3,21 @@
 
     <item
         is-multidex="false"
+        jar="F:\github\tourism-rn\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="F:\github\tourism-rn\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_c8583840682d868264ab3c9298af18d775b51e16.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="D:\Java\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="F:\gitee\dva-rn\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1_9118849faf76b51fa277666dcae39e237c18f006.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="F:\gitee\dva-rn\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_273da2ba53aedc2691b5c6c4485ebe7b12b6e634.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="F:\gitee\dva-rn\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.54.4\jars\libs\infer-annotations-4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="F:\gitee\dva-rn\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_115289a22be97fcfc210399a10fec9e03ac32187.jar" />
+        <dex dex="F:\github\tourism-rn\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1_9118849faf76b51fa277666dcae39e237c18f006.jar" />
     </item>
     <item
         is-multidex="false"
@@ -35,7 +26,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="F:\gitee\dva-rn\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_c64325f78a24c085b700c554244dc03fa6bc6a89.jar" />
+        <dex dex="F:\github\tourism-rn\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_c64325f78a24c085b700c554244dc03fa6bc6a89.jar" />
     </item>
     <item
         is-multidex="false"
@@ -44,7 +35,16 @@
         optimize="true"
         revision="23.0.1"
         sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="F:\gitee\dva-rn\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_0ea5209902ea96d95d6561e891859d3c099475dd.jar" />
+        <dex dex="F:\github\tourism-rn\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_0ea5209902ea96d95d6561e891859d3c099475dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\github\tourism-rn\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.54.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9236445249b688377917bbf182bb651ba5a9c5f1">
+        <dex dex="F:\github\tourism-rn\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.54.4_312c688741de31c6e4385ea5fc90234bc65169b4.jar" />
     </item>
     <item
         is-multidex="false"
@@ -53,43 +53,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="F:\gitee\dva-rn\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_a971f67c50848f35eab062a5cec0856f32aa537b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="F:\gitee\dva-rn\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="F:\gitee\dva-rn\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_9b4eea4b577022a3d967042c6affbd47eb8e71a6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="F:\gitee\dva-rn\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="F:\gitee\dva-rn\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_2f6fb899a57a68b3e1a917e5e0fb83701e8b11c8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="F:\gitee\dva-rn\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="F:\gitee\dva-rn\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_d3f9d67ef842c24dec3ef132e285a8bc066eea68.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="F:\gitee\dva-rn\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.54.4\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9236445249b688377917bbf182bb651ba5a9c5f1">
-        <dex dex="F:\gitee\dva-rn\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.54.4_ae2503a3177f0da5f7f9c9264b3aba1401f7c73b.jar" />
+        <dex dex="F:\github\tourism-rn\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_a971f67c50848f35eab062a5cec0856f32aa537b.jar" />
     </item>
     <item
         is-multidex="false"
@@ -98,79 +62,34 @@
         optimize="true"
         revision="23.0.1"
         sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="F:\gitee\dva-rn\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_f63c7ab08dbed3c34e0fe0b9b1a691240ffa1bb7.jar" />
+        <dex dex="F:\github\tourism-rn\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_f63c7ab08dbed3c34e0fe0b9b1a691240ffa1bb7.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
+        jar="F:\github\tourism-rn\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="F:\gitee\dva-rn\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_0283216b9bf7dad1d31c87f4be8f1ed4e4500cc6.jar" />
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="F:\github\tourism-rn\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_0a59c0a792ae62ff4fbc5ac5d4d67fc8a59bd98a.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="F:\gitee\dva-rn\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="F:\gitee\dva-rn\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_02963aeb991ac13369d994d078df4c3f7271bae3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="F:\gitee\dva-rn\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="F:\gitee\dva-rn\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.3.0_7e4d0516c756ad0be73fe56070e78112e6db39a0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="F:\gitee\dva-rn\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="F:\gitee\dva-rn\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.3.0_ce02f506d01df17ae5ee42baa1ebfe845e587bd9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="F:\gitee\dva-rn\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="F:\gitee\dva-rn\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.3.0_8980f0df84b840451872d431eaf60b87b48e6200.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="F:\gitee\dva-rn\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="F:\gitee\dva-rn\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_cbf244df85377698d9d3aac21383ce5204dd37c8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="F:\gitee\dva-rn\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="F:\gitee\dva-rn\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_a999f8da2e047e4429343b8cd56da8f0070121c2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="F:\gitee\dva-rn\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.3.0\jars\classes.jar"
+        jar="F:\github\tourism-rn\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.3.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
-        <dex dex="F:\gitee\dva-rn\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.3.0_8b57bc9c4ea8a34c09b63392c33f6ade9b4739d1.jar" />
+        <dex dex="F:\github\tourism-rn\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.3.0_b8c213b9fd39f56cd7bb958c8a3f6af25913d0e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\github\tourism-rn\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="F:\github\tourism-rn\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.3.0_c433de057fca226ceeff11f5f97096b91b121a18.jar" />
     </item>
     <item
         is-multidex="false"
@@ -179,16 +98,97 @@
         optimize="true"
         revision="23.0.1"
         sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="F:\gitee\dva-rn\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_1efc6a5eb9346389ba0de2f5ee10a5fa311da347.jar" />
+        <dex dex="F:\github\tourism-rn\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_1efc6a5eb9346389ba0de2f5ee10a5fa311da347.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="F:\gitee\dva-rn\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="F:\github\tourism-rn\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_273da2ba53aedc2691b5c6c4485ebe7b12b6e634.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\github\tourism-rn\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="F:\gitee\dva-rn\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_158888db8bf44776d1ac3ae08e1d919bbeac335b.jar" />
+        <dex dex="F:\github\tourism-rn\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_0eb6119dc991b65c2fa447d9b2348bdf4c8761a4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\github\tourism-rn\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="F:\github\tourism-rn\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.3.0_8581713d6f15fa5b1f85c0784056113a8bc7d0e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\github\tourism-rn\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="F:\github\tourism-rn\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_422f26c1229e6c5d47ce9326a1a2fd2c0e7ec1aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\github\tourism-rn\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="F:\github\tourism-rn\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_7a764cb5764e130cce420d25b18c03775ad55b9b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\github\tourism-rn\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="F:\github\tourism-rn\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_fc0996824dfcd06133656a2c14c8d916252ff1ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\github\tourism-rn\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.54.4\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="F:\github\tourism-rn\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_03e5cacbd5ffcefb8f290d3c49ed63fa12eb0de7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="F:\github\tourism-rn\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_0283216b9bf7dad1d31c87f4be8f1ed4e4500cc6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\github\tourism-rn\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="F:\github\tourism-rn\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.3.0_63cebd44ce85daf4a556e0677d5f31ab140052ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\github\tourism-rn\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="F:\github\tourism-rn\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_6b7f80f4cdc23a2d765b171925f321f61b78d7f5.jar" />
     </item>
 
 </items>

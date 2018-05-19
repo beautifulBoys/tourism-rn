@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { StyleSheet, View, Text } from 'react-native'
+import { StyleSheet, View, Text, Image } from 'react-native'
 import { connect } from 'react-redux'
 
 import { Button } from '../components'
@@ -10,6 +10,13 @@ import { NavigationActions } from '../utils'
 class Mine extends Component {
   static navigationOptions = {
     title: 'Mine',
+    tabBarLabel: '我',
+    tabBarIcon: ({ focused, tintColor }) => (
+      <Image
+        style={[styles.icon, { tintColor: focused ? tintColor : 'gray' }]}
+        source={require('../images/bottom_icon3.png')}
+      />
+    ),
   }
 
   render() {
@@ -25,6 +32,10 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: 'red'
+  },
+  icon: {
+    width: 28,
+    height: 28,
   },
   title: {
     width: '100%',

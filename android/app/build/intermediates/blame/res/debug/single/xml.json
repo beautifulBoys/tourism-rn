@@ -2,5 +2,9 @@
     {
         "merged": "F:\\gitee\\dva-rn\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
         "source": "F:\\gitee\\dva-rn\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.54.4\\res\\xml\\preferences.xml"
+    },
+    {
+        "merged": "F:\\github\\tourism-rn\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
+        "source": "F:\\github\\tourism-rn\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.54.4\\res\\xml\\preferences.xml"
     }
 ]

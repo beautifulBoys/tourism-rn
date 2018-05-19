@@ -1,10 +1,52 @@
 import React, { Component } from 'react'
-import { StyleSheet, View, Image, Text, ScrollView } from 'react-native'
+import { StyleSheet, View, Image, Text, ScrollView, FlatList } from 'react-native'
 import { connect } from 'react-redux'
 
 import { Button } from '../components'
 
 import { NavigationActions } from '../utils'
+import DynamicItem from '../components/dynamic_item'
+
+const styles = StyleSheet.create({
+  container: {
+    backgroundColor: '#eee'
+  },
+  icon: {
+    width: 28,
+    height: 28,
+  },
+  v1: {
+    height: 100,
+    marginBottom: 10
+  },
+  headerTitleView: {
+    width: 70,
+    height: 60,
+    justifyContent: 'center',
+    alignItems: 'center',
+    flex: 1,
+  },
+  headerTitleText: {
+    fontSize: 20,
+    color: '#fff',
+    fontWeight: 'bold'
+  },
+  headerSideView: {
+    width: 70,
+    height: 60,
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+  headerSideText: {
+    fontSize: 18,
+    color: '#fff'
+  },
+  li: {
+    marginBottom: 10,
+    backgroundColor: '#fff',
+  }
+})
+
 
 @connect()
 class Home extends Component {
@@ -12,57 +54,28 @@ class Home extends Component {
     tabBarIcon: ({ focused, tintColor }) => (
       <Image
         style={[styles.icon, { tintColor: focused ? tintColor : 'gray' }]}
-        source={require('../images/house.png')}
+        source={require('../images/bottom_icon1.png')}
       />
     ),
-    headerRight: (
-      <View style={{
-        width: 70,
-        height: 60,
-        justifyContent: 'center',
-        alignItems: 'center'
-      }}>
-        <Text style={{
-          fontSize: 18,
-          color: '#fff'
-        }}>操作</Text>
+    tabBarLabel: '动态',
+    headerLeft: (
+      <View style={styles.headerSideView}>
+        <Text style={styles.headerSideText}>返回</Text>
       </View>
     ),
     headerTitle: (
-      <View style={{
-        width: 70,
-        height: 60,
-        justifyContent: 'center',
-        alignItems: 'center',
-        flex: 1,
-      }}>
-        <Text style={{
-          fontSize: 20,
-          color: '#fff',
-          fontWeight: 'bold'
-        }}>旅游圈</Text>
+      <View style={styles.headerTitleView}>
+        <Text style={styles.headerTitleText}>旅游圈</Text>
       </View>
     ),
-    headerLeft: (
-      <View style={{
-        width: 70,
-        height: 60,
-        justifyContent: 'center',
-        alignItems: 'center'
-      }}>
-        <Text style={{
-          fontSize: 18,
-          color: '#fff'
-        }}>返回</Text>
+    headerRight: (
+      <View style={styles.headerSideView}>
+        <Text style={styles.headerSideText}>操作</Text>
       </View>
     ),
     headerStyle: {
-      backgroundColor: '#0997F7'
-    },
-    headerTintColor: '#fff',
-    headerTitleStyle: {
-      fontWeight: 'bold',
-    },
+      backgroundColor: '#20a0ff'
+    }
   }
 
   gotoDetail = () => {
@@ -73,39 +86,30 @@ class Home extends Component {
     this.props.dispatch(NavigationActions.navigate({ routeName: 'Mine' }))
   }
 
+  _flatItemKey = (item, index) => item
+  _renderItem = ({ item }) => {
+    return (
+      <View style={styles.li} key={item}>
+        <DynamicItem  key={item}></DynamicItem>
+      </View>
+    )
+  }
   render() {
     return (
       <ScrollView
         contentContainerStyle={styles.container}
         automaticallyAdjustContentInsets={true}
-        onScroll={() => { console.log('onScroll!') }}
-        scrollEventThrottle={200}
+        scrollEventThrottle={500}
       >
-        {
-          [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1].map((item, index) => (
-            <View key={index} style={styles.v1}>
-              <Text>第{index}行</Text>
-            </View>
-          ))
-        }
+        <FlatList
+          data={[1,2,3,4,5]}
+          extraData={this.state}
+          keyExtractor={this._flatItemKey}
+          renderItem={this._renderItem}
+        />
       </ScrollView>
     )
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    backgroundColor: 'red'
-  },
-  icon: {
-    width: 32,
-    height: 32,
-  },
-  v1: {
-    height: 100,
-    marginBottom: 10,
-    backgroundColor: 'green'
-  }
-})
 
 export default Home
