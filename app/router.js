@@ -16,16 +16,16 @@ import { connect } from 'react-redux'
 
 import Loading from './containers/Loading'
 import Login from './containers/Login'
-import Home from './containers/Home'
+import Home from './containers/home'
 
-import Account from './containers/Account'
+import Friend from './containers/friend'
 import Detail from './containers/Detail'
 import Mine from './containers/mine'
 
 const HomeNavigator = TabNavigator(
   {
     Home: { screen: Home },
-    Account: { screen: Account },
+    Friend: { screen: Friend },
     Mine: { screen: Mine },
 
   },

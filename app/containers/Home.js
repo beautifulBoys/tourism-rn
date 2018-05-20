@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
 import { StyleSheet, View, Image, Text, ScrollView, FlatList } from 'react-native'
 import { connect } from 'react-redux'
-
 import { Button } from '../components'
 
 import { NavigationActions } from '../utils'
 import DynamicItem from '../components/dynamic_item'
-
+import homeData from '../json/home.json'
 const styles = StyleSheet.create({
   container: {
     backgroundColor: '#eee'
@@ -44,12 +43,24 @@ const styles = StyleSheet.create({
   li: {
     marginBottom: 10,
     backgroundColor: '#fff',
+  },
+  headerRightImage: {
+    width: 30,
+    height: 35
   }
 })
 
 
 @connect()
-class Home extends Component {
+class ThisComponent extends Component {
+
+  constructor(props) {
+    super(props)
+    this.state = {
+      list: homeData.list
+    }
+  }
+
   static navigationOptions = {
     tabBarIcon: ({ focused, tintColor }) => (
       <Image
@@ -59,9 +70,7 @@ class Home extends Component {
     ),
     tabBarLabel: '动态',
     headerLeft: (
-      <View style={styles.headerSideView}>
-        <Text style={styles.headerSideText}>返回</Text>
-      </View>
+      <View style={styles.headerSideView}></View>
     ),
     headerTitle: (
       <View style={styles.headerTitleView}>
@@ -70,7 +79,7 @@ class Home extends Component {
     ),
     headerRight: (
       <View style={styles.headerSideView}>
-        <Text style={styles.headerSideText}>操作</Text>
+        <Image style={styles.headerRightImage} source={require('../images/list.png')} />
       </View>
     ),
     headerStyle: {
@@ -78,19 +87,11 @@ class Home extends Component {
     }
   }
 
-  gotoDetail = () => {
-    this.props.dispatch(NavigationActions.navigate({ routeName: 'Detail' }))
-  }
-
-  gotoMine = () => {
-    this.props.dispatch(NavigationActions.navigate({ routeName: 'Mine' }))
-  }
-
-  _flatItemKey = (item, index) => item
+  _flatItemKey = (item, index) => index
   _renderItem = ({ item }) => {
     return (
-      <View style={styles.li} key={item}>
-        <DynamicItem  key={item}></DynamicItem>
+      <View style={styles.li} key={item.id}>
+        <DynamicItem data={item}></DynamicItem>
       </View>
     )
   }
@@ -101,15 +102,17 @@ class Home extends Component {
         automaticallyAdjustContentInsets={true}
         scrollEventThrottle={500}
       >
-        <FlatList
-          data={[1,2,3,4,5]}
-          extraData={this.state}
-          keyExtractor={this._flatItemKey}
-          renderItem={this._renderItem}
-        />
+        {
+          this.state.list.map((item, index) => (
+            <View style={styles.li} key={index}>
+              <DynamicItem data={item}></DynamicItem>
+            </View>
+          ))
+        }
       </ScrollView>
     )
   }
 }
 
-export default Home
+export default ThisComponent
+

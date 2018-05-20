@@ -1,0 +1,73 @@
+{
+  "data": {
+    "username": "李鑫",
+    "avatar": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAA/CAYAAABXXxDfAAAM30lEQVRoQ+2bfXhU9ZXHP/dlZpLJkEkmhBACggEJry0sis9SoS0ugggF1EXaWqtS3a4tj8tjt0WKqyj1eZZnfQG31trVUsGlrcUVQWEfZWXlxUXD4hKMBEkQ8jJ5Jy8zk0nmvuzzu3dCQmaSTEhAH+T3z9x787vnnO8553d+55zfjWRaA0o+NCh4R6M1yGU7XCkweY5K7nQZSQKpqlg3j+zUafCbly3orsDSsiWmLlCQ/riq9auDuosWroD/yvj7Fct3aOCK219x+6+gBq64/Rdh9Anj/sKIqZ/jGaYRbohQ9XEWhR/PJ6QPv2TiXHLLK1Irsxc9he/6kUALIPJpFUhDqy1l7wtzqQtOvSQKuOTgr532IqNvTwEqQNPOB6leheYvZPvGX6LhvugKuKTghdWXrH4CxZMNWlMsOFV4gJv9T3+N8pqZlxf4QUox8x/5dxDlldYaH5yaScEf0ig8fvvlBV4lxG2PPQWuVNBC3YBP5aPncykpvfnyAi/QzFn8pB3s9FOx4JSh0Opn+9r7CZtZlx944fp/s+IVnFlDQD9rAzQVUFOty4+eyqGkdvFFBy4YXNKA147IrZTxjYWv4Ls+BfRmUGT0QIgPn5vJmaa5lwR4j+AzUo7g9VVSW5VLU1vegAs081urGTY3F7PpE9oaSnGFQuzY8uJFSXIEFjG65g8xlhfb0YxvrmXY3MGAy9qSPt3i5mjRgwOmgCSpigWrn7O3vJp8qKuCwakUbJ5FYfUDA8ZHeNi1839P9gyRV4D/YJBDO39Cq+mz7mPAfy1vA+PvFpOrQQ+CkgEo7PvVJCoCNw6IYLmD3+C6h0oAHeo+g5oyGJKO/0A67x/81wHhIYjMvm01mdfmCtjogVYUzyj8B/28v+OR+OBv/ekKHDnjQK/oEELJoHBHDgUH7xgQwaZPW8vVtwvPaoS601BTCr5kqG9h19ZnBmSZCasvXPd7y3ChhgZLbnfaIEDjTw+vjQ/+ljsfwDPxr0A7AZLDBqsMofgvyeQfvr/f4MWyWvSTn+HIuQoIQ00Jet0ZZKeMlJrB4ZfncPLs8n7zcUn1LH5yAyHTAY1NuNOSAQ+hhhp2/PP6+OCHefYw85eHAK9tfSWJwEl4f9P3aNZH91so2+U/A73Bon0eeE8qTfkmu/a93m8+gkDeiE2M/7sKXIpQs10rHH8+jaLSu+ODF0+FAsbN3UPmtcLyPj7dxAUHPGEBX9MRhlTvJ7X6EzLm1eFa9V3bs9RBFnijthjJ5ULK8NCWX0PtE8NoGjKR5tSx+H3foEURXtL3ka3sZtY/bAJvBoETJgVvLjpvK+12n3fQxJKHH0VKHYHZVMrO9Q8lvA1JGAxtfo+c4tcZXvlfKIGAXcHpJuruG2HCFNBqQBXr/CRGVakFniRAdmDcdByzPgjJTgxVoTZrOuVjllA+ZO65SN2bKsTyumXBfJJyXWBEOPanJTE7SY9Jjr3+RXPBS93eIt79z4298SS3Ziu5BS/hrS+yAJuyjCTLmIEw0tgs1P++F7RKm44AX1uEUVMBDvvsRBqdg/b4CaTflVvgrRGloye7+XzCnRSOXkkEOyPsbkzJWkfePYcx6wLWlP1bV8XsVj2Ct6OyWCsiDU3n8Hpft8HIp33AxI+eIbP0AJJhnAMtGJuGAaE2tOfGkXz7MtvlRQ4hStjaEozKU5BkA5XTU9BrIuhLipGDYXBFg26UjqCtp6VxdNo/UZL53bjYB7s+4Nt3/hzJLVwJzPom3vrjthjP7RG8HZxEdiRqb5EYtPD2muUxgS+v7DdMPLgOKaJjOpRYgUJtyJmDUI7eY3dvtOhpqJoSAx4zgjRmFNryQtjph0FR63eiKhQgxulxt/K/UzZgWJ0ge4jlevPCJSTnOTDqG5B9aTQdcscNoj2Ct+rvxzaCmgSRADhGEfjkFLu2bDzH8OvFaxlz8HmQJQt4u2DC3S03Fl7QHIZ/G4tj8V0QKQQpKqwAX12EUV0GLukcACk7DbM0hPGdU9DShulS49IlYtCYM5n3bnwL3XRZ78+cdA/D5vkt4JYn+dIo2zaKA6deiDFKj+BlNL5z33JcuaNAs4mhjsS/o4T9B5/lmrLfMem9xyzgKB3Cd+YigBsjhuI6cm+0dWVbzaaVBNUnY8BjtCHnXUVk7Rn4dSlSktIt/XYF7J39JpOynibvB/sxzgbt7FR2glvlyKv3xF2uvVZ1dgHigUi5LbCwmjqSprf3k3zXeyCrSCmqFcnPG4pkW9zrRj2yFCnVB5FooDvnox4LvFl9AtPRsbatP7sdyCOyicz+FI5WI7lty8YMw8QMthKaNZnU7SmY5QEIRBslbgeEIuze/FrcHKVX8HauXw+R2ihfDRwiCA5De2oL5r9UQDgCSQ4kxXZ1MYRA4pljz00wYRpEiqJd2k7iOzyYlQVQWxoLXkwb7kYyPUSuO45U2dDBQ3iaAN0W9aJJPpTNmUhJYNZ2dIikwW4iH8P2d/eeFxfaJegVvJ3x7QQiEIl0SG5Z6hoo/BB92QcYNc0Q6ejGSuke1O2zonv6CTA7FBP1eXCIYHYA81iLBV4SPITiiF5HwLzaixQG7W9r4NN6qxY6J7w3CX7sQ3koG8SW5m8UEa9jDPbi330N+46JHD929ApelJ+L1vwC3OkQ6dR3k6JaV6PZ1/EP0A+cwShzwtcdOBZ/y8ql0c7EAS7Csnjfw6u7Zb439h2IdPONhNBHthcynBhvVqMdsGOLOtZEmpeGlOOBkgoImecDF0r0ePnstXl8XLXmwsCLt+YuWUba9Fw7K+s6TB2s7S3TBmupPgxUgSYSjC5r2TKtDI4qVv95NutXPshLT/+QHy44iHnKhal2Mm0nXpKkYA73IqVEtz69Dam6CaOxS+8/+o7ktHeUfS+vx6/Pu3Dws2b8lOyFGRApjeM7CggFJDok0a+robw2h3HX/YyWtlwGDS2g7tWlyCM0jFIhdB/odcNXcrowg2F2bn6329qgV7cXtCcMeZ7JK0+DVt83oF0Fs4CLpRNk+PdXUrVnGp6cz2munMzwm7fx+YZVUGlghIRnxN86E9UxKWnoh+H1Q6JCjT8SAi/SxRsfe9mmoEWDnnDd9nXfmXbX513uTbWS7/96Ka89sZTkjNPWm4amEA6M55HVf8+jP34Do9AD3bh/QuBNAykrh/Jtk+ImN+00EgJvNQZ+sRy8OaA1xuGvWJWTqMg6XFbEgS7uqzZb6/yZB5ehJgWR3B0BNFIvYgZsfPYB7puZj9HQD8tLMnJaCvkvLKe4rfveY0LghVCzb7mDzBtEplcBIreOpq9xr9v/3nmeiHNqDVf/6H7OvHYb3jEFRAIdObms6jRXTuX6ZRv4n41PYBTFCZQJmR3kaDH0zgubqVf/un9uL96eOv4fGXuXDG1lCYoQZ5ozSGV9CuPnPEzw1FCSsqsslxfAW+pG4p2QT/GmH+CNaBitHYrpK0PZ5UJvCLFz25EeT34StvyY9JeY9nNR4Z2Fts57snDP9vvuroX4kuUtplrO3sIpzL1hNYqzEUdGmLA/C8VlcOyNOYyeUIFRKjK7+FtYIoqQfBm0HPDy5uF9PU5PGHyqs4ib1z4OODuSHXHMJOn2cZP4FaPrszhzTLmcBRvu5p11i3Fm1hKqHM+qtffx5IqdmMclTDoVP4mg7TJH9mVS/Odvkl/53MCAFyest65YhDQsDyLRZMc0QJJFt8L+tcB3eRZzr4AzhEmYzNmrqD/8bQbP3kr1KyugWsUI9w84yMjpLvJ/u7LHYGf5Yl++vb1hymJy7ri6f+ve4ipjOmos91982x0UvrSMnMkB9BMOJFen+uFCrJ5sK3DPpjd6DHZ9Bm+v+2N2pmeK9S2s1F6wdHdt7eTx5zmdEPwISmvQg8lIrm4+WOiDEmTfIIyTjfzHrvJeP23pk+WtVvC6VzFFq6lzhdcH4c6b6nRD8BDGiSpQ47S/LoCunJFK1esT2Vv+Vq9v9wm8oLbw3vm4r8mBtvpOFm23bB9/BXj//2F8VgqD+rvWbaxyVjrvP7sev7J04MCLaO+U6plx0xqSZ1wFbdG2Vq8sephggS/AqDxtd2/FhtHuAJ2vBYkE/iY7VQzNoGDrj2jUZlKp34R5blnGypGw5TuCXZzPSfqjACskDIzVraxT0ErKwAz42fH4iz2e9iQM3k5vxVmdKGs7B7D+IG+nc+HZXHzu4oi9kV2PrunxxDdh8KIlnDGzGb01hCxJGOK/ksQa63Td9b7rPMvIcd5LlEZv9NtpKy43augsb2/5Q49HbAmD7499v6zvXgH/ZbXMxZbriuUvtoa/rPSvWP7LapmLLZd0dO9Z8/SHSQTrux4nXWzWXxz9FJ/ByOlhpNNFdaboN1SdcFB2xEkk3I+u6ReHJyHOjiST4VPbyBobsXov/w/8pLP3gJSNCgAAAABJRU5ErkJggg==",
+    "desc": "我就是我，不一样的烟火",
+    "friendNum": 1,
+    "followNum": 2,
+    "followingNum": 2
+  },
+  "menu": [
+    {
+       "title": "个人中心",
+       "arr": [
+          {
+            "icon": "post",
+            "text": "分享",
+            "path": "/post"
+          },
+          {
+            "icon": "posted",
+            "text": "我分享的",
+            "path": "/posted"
+          },
+          {
+            "icon": "comment",
+            "text": "我评论的",
+            "path": "/comment"
+          },
+          {
+            "icon": "likes",
+            "text": "我喜欢的",
+            "path": "/likes"
+          }
+        ]
+    },
+    {
+      "title": "数据中心",
+      "arr": [
+          {
+            "icon": "ranking",
+            "text": "排行榜",
+            "path": "/ranking"
+          },
+          {
+            "icon": "api",
+            "text": "接口统计",
+            "path": "/api"
+          }
+      ]
+    },
+    {
+      "title": "我的圈子",
+      "arr": [
+          {
+            "icon": "allfriend",
+            "text": "所有用户",
+            "path": "/allfriend"
+          },
+          {
+            "icon": "friend",
+            "text": "我的圈友",
+            "path": "/friend"
+          },
+          {
+            "icon": "websit_chat",
+            "text": "全站聊天室",
+            "path": "/websit_chat"
+          }
+      ]
+    }
+  ]
+
+}
