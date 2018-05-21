@@ -17,6 +17,8 @@ import { connect } from 'react-redux'
 import Loading from './containers/Loading'
 import Login from './containers/Login'
 import Home from './containers/home'
+import Persional from './containers/persional'
+
 
 import Friend from './containers/friend'
 import Detail from './containers/Detail'
@@ -26,15 +28,14 @@ const HomeNavigator = TabNavigator(
   {
     Home: { screen: Home },
     Friend: { screen: Friend },
-    Mine: { screen: Mine },
-
+    Mine: { screen: Mine }
   },
   {
     tabBarComponent: TabBarBottom,
     tabBarPosition: 'bottom',
     swipeEnabled: false,
     animationEnabled: true,
-    lazyLoad: false,
+    lazyLoad: true,
   }
 )
 
@@ -52,6 +53,7 @@ const AppNavigator = StackNavigator(
   {
     Main: { screen: MainNavigator },
     Login: { screen: Login },
+    Persional: { screen: Persional },
   },
   {
     headerMode: 'none',

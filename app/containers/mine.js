@@ -104,6 +104,9 @@ const styles = StyleSheet.create({
     paddingVertical: 20,
     justifyContent: 'center',
     alignItems: 'center'
+  },
+  viewActive: {
+    backgroundColor: '#fff'
   }
 
 
@@ -169,19 +172,23 @@ class ThisComponent extends Component {
               <View style={styles.content}>
                 <Grid 
                   data={item.arr} columnNum={3} 
-                  renderItem={dataItem => (
-                    <View 
-                      style={styles.itemBox}
-                      onClick={() => {
-                        this.listItemClickEvent(dataItem)
-                      }} 
-                    >
-                      <Image source={{uri: dataItem.icon}} style={styles.icon1}/>
-                      <View style={styles.textBox}>
-                        <Text style={{fontSize: 16}}>{dataItem.text}</Text>
-                      </View>
-                    </View>
-                  )}
+                  renderItem={dataItem => {
+                    let status = false
+                    let i = 1
+                    return (
+                        <View 
+                          style={[styles.itemBox]}
+                          onClick={() => {
+                            this.listItemClickEvent(dataItem)
+                          }}
+                        >
+                          <Image source={{uri: dataItem.icon}} style={styles.icon1}/>
+                          <View style={styles.textBox}>
+                            <Text style={{fontSize: 16}}>{dataItem.text}</Text>
+                          </View>
+                        </View>
+                    )}
+                  }
                 />
               </View>
             </View>

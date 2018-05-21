@@ -144,8 +144,13 @@ class ThisComponent extends Component {
     }
   }
   listItemClickEvent (item) {
-    
+    this.gotoPersional()
   }
+  
+  gotoPersional = () => {
+    this.props.dispatch(NavigationActions.navigate({ routeName: 'Persional' }))
+  }
+
   render() {
     return (
       <View style={styles.friend}>
