@@ -115,4 +115,3 @@ class ThisComponent extends Component {
 }
 
 export default ThisComponent
-

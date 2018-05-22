@@ -20,7 +20,7 @@ import friendData from '../json/friend.json'
 const styles = StyleSheet.create({
   container: {
     backgroundColor: '#eee'
-  }, 
+  },
   icon: {
     width: 28,
     height: 28,
@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
     paddingRight: 15,
     flexDirection: 'row',
     display: 'flex',
-    
+
   },
   li: {
     borderBottomWidth: 1 / PixelRatio.get(),
@@ -146,8 +146,8 @@ class ThisComponent extends Component {
   listItemClickEvent (item) {
     this.gotoPersional()
   }
-  
-  gotoPersional = () => {
+
+  gotoPersional () {
     this.props.dispatch(NavigationActions.navigate({ routeName: 'Persional' }))
   }
 
@@ -171,7 +171,7 @@ class ThisComponent extends Component {
                     this.listItemClickEvent(item)
                   }}
                 >
-                  <View 
+                  <View
                     style={[styles.li, status ? styles.liActive : {}]}
                   >
                     <View style={styles.liLeft}><Text style={styles.liLeftText}>{item.id}</Text></View>
@@ -189,10 +189,9 @@ class ThisComponent extends Component {
           }
         </ScrollView>
       </View>
-      
+
     )
   }
 }
 
 export default ThisComponent
-

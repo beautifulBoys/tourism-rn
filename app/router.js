@@ -18,7 +18,7 @@ import Loading from './containers/Loading'
 import Login from './containers/Login'
 import Home from './containers/home'
 import Persional from './containers/persional'
-
+import Dynamic from './containers/dynamic'
 
 import Friend from './containers/friend'
 import Detail from './containers/Detail'
@@ -54,6 +54,7 @@ const AppNavigator = StackNavigator(
     Main: { screen: MainNavigator },
     Login: { screen: Login },
     Persional: { screen: Persional },
+    Dynamic: { screen: Dynamic },
   },
   {
     headerMode: 'none',

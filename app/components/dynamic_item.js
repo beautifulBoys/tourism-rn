@@ -6,7 +6,8 @@ import {
   Text,
   ScrollView,
   FlatList,
-  PixelRatio
+  PixelRatio,
+  TouchableNativeFeedback
 } from 'react-native'
 
 import { connect } from 'react-redux'
@@ -39,7 +40,7 @@ const styles = StyleSheet.create({
     borderRadius: 42,
   },
   dynamic_head_center: {
-    
+
   },
   dynamic_head_center_name: {
     color: '#333',
@@ -130,8 +131,12 @@ const styles = StyleSheet.create({
 class DynamicItem extends Component {
 
 
-  toUserPageEvent () {
+  gotoPersional () {
+    this.props.dispatch(NavigationActions.navigate({ routeName: 'Persional' }))
+  }
 
+  gotoDynamic () {
+    this.props.dispatch(NavigationActions.navigate({ routeName: 'Dynamic' }))
   }
 
   _flatItemKey (item, index) {
@@ -150,6 +155,7 @@ class DynamicItem extends Component {
     )
   }
 
+
   _renderStarItem ({ item }) {
     return (
       <View key={item.id} style={styles.starListItem}>
@@ -162,34 +168,37 @@ class DynamicItem extends Component {
 
     return (
       <View style={styles.dynamic}>
-        <View style={styles.dynamic_head}>
-          <View style={styles.dynamic_head_left} onClick={this.toUserPageEvent.bind(this)}>
-            <Image style={styles.dynamic_head_left_img} source={{uri: data.userInfo.avatar}}/>
+        <TouchableNativeFeedback
+          onPress={this.gotoDynamic.bind(this)}>
+          <View style={[styles.dynamic_head, {backgroundColor: 'red'}]}>
+            <View style={styles.dynamic_head_left}>
+              <Image style={styles.dynamic_head_left_img} source={{uri: data.userInfo.avatar}}/>
+            </View>
+            <View style={styles.dynamic_head_center}>
+              <Text style={styles.dynamic_head_center_name}>{data.userInfo.username}</Text>
+              <Text style={styles.dynamic_head_center_desc}>{data.userInfo.desc || '这个人很懒，还没有填写'}</Text>
+            </View>
           </View>
-          <View style={styles.dynamic_head_center} onClick={this.toUserPageEvent.bind(this)}>
-            <Text style={styles.dynamic_head_center_name}>{data.userInfo.username}</Text>
-            <Text style={styles.dynamic_head_center_desc}>{data.userInfo.desc || '这个人很懒，还没有填写'}</Text>
-          </View>
-        </View>
+        </TouchableNativeFeedback>
 
-        <ScrollView
-          contentContainerStyle={styles.ImageList}
-          automaticallyAdjustContentInsets={true}
-          scrollEventThrottle={500}
-        >
-          {
-            data.urls.map((item, index) => (
-              <View key={index} style={styles.ImageListItem}>
-                <Image style={styles.ImageListItem_img} source={{uri: item.url}}/>
-              </View>
-            ))
-          }
-        </ScrollView>
-        <View style={styles.footer}>
-          <View style={styles.title}><Text style={styles.titleText}>{data.title}</Text></View>
-          <View style={styles.date}><Text style={styles.dateText}>{data.postTime}</Text></View>
-        </View>
-        
+          <ScrollView
+            contentContainerStyle={[styles.ImageList]}
+            automaticallyAdjustContentInsets={true}
+            scrollEventThrottle={500}
+          >
+            {
+              data.urls.map((item, index) => (
+                <View key={index} style={styles.ImageListItem}>
+                  <Image style={styles.ImageListItem_img} source={{uri: item.url}}/>
+                </View>
+              ))
+            }
+          </ScrollView>
+          <View style={styles.footer}>
+            <View style={styles.title}><Text style={styles.titleText}>{data.title}</Text></View>
+            <View style={styles.date}><Text style={styles.dateText}>{data.postTime}</Text></View>
+          </View>
+
         <View style={styles.control}>
           <View style={styles.controlLeft}>
             {
@@ -209,7 +218,7 @@ class DynamicItem extends Component {
             <Image source={require('../images/travel_msg.png')} style={[styles.controlRightImg, {marginLeft: 20, marginTop: 5}]}/>
           </View>
         </View>
-     
+
       </View>
     )
   }
