@@ -16,9 +16,6 @@ import Button from 'antd-mobile/lib/button'
 import { NavigationActions } from '../utils'
 
 const styles = StyleSheet.create({
-  container: {
-    backgroundColor: '#eee'
-  },
   content: {
     flex: 1,
     backgroundColor: '#eee'
@@ -45,6 +42,7 @@ class ThisComponent extends Component {
       //   scrollEventThrottle={500}
       // >
         <View style={styles.content}>
+
         </View>
 
       // </ScrollView>

@@ -11,8 +11,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#eee'
   },
   icon: {
-    width: 28,
-    height: 28,
+    width: 25,
+    height: 25,
   },
   v1: {
     height: 100,
@@ -20,19 +20,18 @@ const styles = StyleSheet.create({
   },
   headerTitleView: {
     width: 70,
-    height: 60,
+    height: 55,
     justifyContent: 'center',
     alignItems: 'center',
     flex: 1,
   },
   headerTitleText: {
-    fontSize: 20,
-    color: '#fff',
-    fontWeight: 'bold'
+    fontSize: 18,
+    color: '#fff'
   },
   headerSideView: {
     width: 70,
-    height: 60,
+    height: 55,
     justifyContent: 'center',
     alignItems: 'center'
   },
@@ -45,8 +44,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
   },
   headerRightImage: {
-    width: 30,
-    height: 35
+    width: 25,
+    height: 30
   }
 })
 

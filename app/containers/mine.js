@@ -24,42 +24,42 @@ import menuData from './menu_config'
 const styles = StyleSheet.create({
   container: {
     backgroundColor: '#eee'
-  }, 
+  },
   icon: {
-    width: 28,
-    height: 28,
+    width: 25,
+    height: 25,
   },
   header: {
     backgroundColor: '#20a0ff',
-    paddingTop: 40,
-    paddingBottom: 40
+    paddingTop: 30,
+    paddingBottom: 30
   },
   avatarBox: {
-    height: 100,
+    height: 80,
     justifyContent: 'center',
     alignItems: 'center'
   },
   avatar: {
-    width: 100,
-    height: 100,
-    borderWidth: 4,
+    width: 80,
+    height: 80,
+    borderWidth: 2,
     borderColor: '#fff',
-    borderRadius: 120
+    borderRadius: 80
   },
   usernameText: {
-    fontSize: 20,
+    fontSize: 17,
     color: '#fff',
     textAlign: 'center',
     marginTop: 10
   },
   descText: {
-    fontSize: 15,
+    fontSize: 14,
     color: '#fff',
     textAlign: 'center',
     marginTop: 5
   },
   tab: {
-    height: 50,
+    height: 45,
     backgroundColor: '#fff',
     flexDirection: 'row',
     display: 'flex',
@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   tabItemText: {
-    fontSize: 16
+    fontSize: 15
   },
   menu: {
     backgroundColor: '#fff',
@@ -81,15 +81,15 @@ const styles = StyleSheet.create({
     paddingRight: 15,
   },
   titleText: {
-    lineHeight: 40,
-    fontSize: 16
+    lineHeight: 35,
+    fontSize: 14
   },
   icon1: {
-    width: 40,
-    height: 40
+    width: 30,
+    height: 30
   },
   textBox: {
-    marginTop: 12
+    marginTop: 5
   },
   buttonBox: {
     marginTop: 40,
@@ -98,12 +98,13 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   btn: {
-    width: 400
+    width: 300
   },
   itemBox: {
-    paddingVertical: 20,
+    paddingVertical: 14,
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
+    backgroundColor: 'red'
   },
   viewActive: {
     backgroundColor: '#fff'
@@ -170,13 +171,13 @@ class ThisComponent extends Component {
             <View key={index} style={styles.menu}>
               <View style={styles.title}><Text style={styles.titleText}>{item.title}</Text></View>
               <View style={styles.content}>
-                <Grid 
-                  data={item.arr} columnNum={3} 
+                <Grid
+                  data={item.arr} columnNum={3}
                   renderItem={dataItem => {
                     let status = false
                     let i = 1
                     return (
-                        <View 
+                        <View
                           style={[styles.itemBox]}
                           onClick={() => {
                             this.listItemClickEvent(dataItem)
@@ -197,13 +198,12 @@ class ThisComponent extends Component {
         <View style={styles.buttonBox}>
           <Button type="primary" style={styles.btn}>退出登录</Button>
         </View>
-        
-        
+
+
       </ScrollView>
-      
+
     )
   }
 }
 
 export default ThisComponent
-

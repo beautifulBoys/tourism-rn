@@ -3,21 +3,21 @@
 
     <item
         is-multidex="false"
-        jar="F:\github\tourism-rn\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="F:\github\tourism-rn\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_c8583840682d868264ab3c9298af18d775b51e16.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="D:\Java\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
         <dex dex="F:\github\tourism-rn\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1_9118849faf76b51fa277666dcae39e237c18f006.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\github\tourism-rn\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="F:\github\tourism-rn\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_c8583840682d868264ab3c9298af18d775b51e16.jar" />
     </item>
     <item
         is-multidex="false"

@@ -21,48 +21,47 @@ const styles = StyleSheet.create({
   dynamic: {
     paddingLeft: 15,
     paddingRight: 15,
-    paddingTop: 10,
     backgroundColor: '#fff'
   },
   dynamic_head: {
-    flexDirection: 'row',
-    paddingTop: 10,
-    paddingBottom: 10,
+    paddingTop: 8,
+    paddingBottom: 8,
+    flexDirection: 'row'
   },
   dynamic_head_left: {
-    width: 42,
-    height: 42,
-    marginRight: 10
+    width: 38,
+    height: 38,
+    marginRight: 8
   },
   dynamic_head_left_img: {
-    width: 42,
-    height: 42,
-    borderRadius: 42,
+    width: 38,
+    height: 38,
+    borderRadius: 38,
   },
   dynamic_head_center: {
 
   },
   dynamic_head_center_name: {
     color: '#333',
-    fontSize: 16
+    fontSize: 15
   },
   dynamic_head_center_desc: {
     color: '#888',
-    fontSize: 14
+    fontSize: 13
   },
   ImageList: {
-    height: 120,
+    height: 100,
     flexDirection: 'row',
     display: 'flex',
   },
   ImageListItem: {
-    width: 200,
-    height: 120,
-    marginRight: 15,
+    width: 160,
+    height: 100,
+    marginRight: 10,
   },
   ImageListItem_img: {
-    height: 120,
-    borderRadius: 5
+    height: 100,
+    borderRadius: 3
   },
   footer: {
     paddingTop: 10,
@@ -72,12 +71,11 @@ const styles = StyleSheet.create({
 
   },
   titleText: {
-    fontSize: 16,
-    fontWeight: 'bold',
+    fontSize: 15,
     color: '#333'
   },
   dateText: {
-    fontSize: 14,
+    fontSize: 13,
     color: '#888'
   },
   control: {
@@ -85,43 +83,43 @@ const styles = StyleSheet.create({
     display: 'flex',
   },
   controlLeft: {
-    marginBottom: 10,
-    marginTop: 10,
-    paddingLeft: 10,
+    marginBottom: 8,
+    marginTop: 8,
+    paddingLeft: 8,
     flexDirection: 'row',
     display: 'flex',
     flex: 1,
-    height: 40
+    height: 35
   },
   controlRight: {
-    marginBottom: 10,
-    marginTop: 10,
+    marginBottom: 8,
+    marginTop: 8,
     flexDirection: 'row',
     display: 'flex',
-    width: 95,
-    height: 40
+    width: 75,
+    height: 35
   },
   controlRightImg: {
-    width: 30,
-    height: 30
+    width: 25,
+    height: 25
   },
   starListItem: {
-    width: 40,
-    height: 40,
-    marginLeft: -10
+    width: 35,
+    height: 35,
+    marginLeft: -5
   },
   starListItem_img: {
-    height: 40,
-    width: 40,
-    borderRadius: 40,
-    borderWidth: 2,
+    height: 35,
+    width: 35,
+    borderRadius: 35,
+    borderWidth: 1,
     borderColor: '#fff'
   },
   text: {
-    fontSize: 16,
+    fontSize: 14,
     color: '#333',
-    lineHeight: 40,
-    marginLeft: 5
+    lineHeight: 35,
+    marginLeft: 8
   }
 
 })
@@ -170,7 +168,7 @@ class DynamicItem extends Component {
       <View style={styles.dynamic}>
         <TouchableNativeFeedback
           onPress={this.gotoDynamic.bind(this)}>
-          <View style={[styles.dynamic_head, {backgroundColor: 'red'}]}>
+          <View style={styles.dynamic_head}>
             <View style={styles.dynamic_head_left}>
               <Image style={styles.dynamic_head_left_img} source={{uri: data.userInfo.avatar}}/>
             </View>

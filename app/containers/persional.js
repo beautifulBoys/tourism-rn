@@ -22,42 +22,42 @@ import persionalData from '../json/persional.json'
 const styles = StyleSheet.create({
   container: {
     backgroundColor: '#eee'
-  }, 
+  },
   icon: {
     width: 28,
     height: 28,
   },
   header: {
     backgroundColor: '#20a0ff',
-    paddingTop: 40,
-    paddingBottom: 40
+    paddingTop: 30,
+    paddingBottom: 30
   },
   avatarBox: {
-    height: 100,
+    height: 80,
     justifyContent: 'center',
     alignItems: 'center'
   },
   avatar: {
-    width: 100,
-    height: 100,
-    borderWidth: 4,
+    width: 80,
+    height: 80,
+    borderWidth: 2,
     borderColor: '#fff',
-    borderRadius: 120
+    borderRadius: 80
   },
   usernameText: {
-    fontSize: 20,
+    fontSize: 17,
     color: '#fff',
     textAlign: 'center',
     marginTop: 10
   },
   descText: {
-    fontSize: 15,
+    fontSize: 14,
     color: '#fff',
     textAlign: 'center',
     marginTop: 5
   },
   tab: {
-    height: 50,
+    height: 45,
     backgroundColor: '#fff',
     flexDirection: 'row',
     display: 'flex',
@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   tabItemText: {
-    fontSize: 16
+    fontSize: 15
   },
   menu: {
     backgroundColor: '#fff',
@@ -87,40 +87,39 @@ const styles = StyleSheet.create({
     backgroundColor: '#eee'
   },
   dynamic: {
-    marginTop: 10,
     paddingLeft: 15,
     paddingRight: 15,
-    paddingTop: 10,
-    backgroundColor: '#fff'
+    backgroundColor: '#fff',
+    marginTop: 10
   },
   dynamic_head: {
-    flexDirection: 'row',
-    paddingTop: 10,
-    paddingBottom: 10,
+    paddingTop: 8,
+    paddingBottom: 8,
+    flexDirection: 'row'
   },
   dynamic_head_left: {
-    width: 42,
-    height: 42,
-    marginRight: 10
+    width: 38,
+    height: 38,
+    marginRight: 8
   },
   dynamic_head_left_img: {
-    width: 42,
-    height: 42,
-    borderRadius: 42,
+    width: 38,
+    height: 38,
+    borderRadius: 38,
   },
   dynamic_head_center: {
 
   },
   dynamic_head_center_name: {
     color: '#333',
-    fontSize: 16
+    fontSize: 15
   },
   dynamic_head_center_desc: {
     color: '#888',
-    fontSize: 14
+    fontSize: 13
   },
   dynamic_content: {
-    marginBottom: 15,
+    marginBottom: 10,
     display: 'flex',
     flex: 1,
     flexDirection: 'row',
@@ -135,7 +134,8 @@ const styles = StyleSheet.create({
     margin: 0,
     paddingTop: '25%',
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
+    overflow: 'hidden'
   },
   dynamic_content_item: {
     position: 'absolute',
@@ -160,17 +160,7 @@ class ThisComponent extends Component {
   }
 
   static navigationOptions = {
-    tabBarIcon: ({ focused, tintColor }) => (
-      <Image
-        style={[styles.icon, { tintColor: focused ? tintColor : 'gray' }]}
-        source={require('../images/bottom_icon3.png')}
-      />
-    ),
-    tabBarLabel: '动态',
-    headerStyle: {
-      backgroundColor: '#20a0ff',
-      height: 0
-    }
+
   }
   listItemClickEvent(item) {
 
@@ -229,13 +219,12 @@ class ThisComponent extends Component {
             ))
           }
         </View>
-        
-        
+
+
       </ScrollView>
-      
+
     )
   }
 }
 
 export default ThisComponent
-

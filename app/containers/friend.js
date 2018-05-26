@@ -22,8 +22,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#eee'
   },
   icon: {
-    width: 28,
-    height: 28,
+    width: 25,
+    height: 25,
   },
   v1: {
     height: 100,
@@ -31,25 +31,28 @@ const styles = StyleSheet.create({
   },
   headerTitleView: {
     width: 70,
-    height: 60,
+    height: 55,
     justifyContent: 'center',
     alignItems: 'center',
     flex: 1,
   },
   headerTitleText: {
-    fontSize: 20,
-    color: '#fff',
-    fontWeight: 'bold'
+    fontSize: 18,
+    color: '#fff'
   },
   headerSideView: {
     width: 70,
-    height: 60,
+    height: 55,
     justifyContent: 'center',
     alignItems: 'center'
   },
   headerSideText: {
     fontSize: 18,
     color: '#fff'
+  },
+  headerRightImage: {
+    width: 25,
+    height: 30
   },
   friend: {
     flex: 1,
@@ -60,7 +63,6 @@ const styles = StyleSheet.create({
     paddingRight: 15,
     flexDirection: 'row',
     display: 'flex',
-
   },
   li: {
     borderBottomWidth: 1 / PixelRatio.get(),
@@ -68,8 +70,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     paddingTop: 8,
     paddingBottom: 8,
-    paddingLeft: 15,
-    paddingRight: 15,
+    paddingLeft: 10,
+    paddingRight: 10,
     flexDirection: 'row',
     display: 'flex',
   },
@@ -77,33 +79,33 @@ const styles = StyleSheet.create({
     backgroundColor: '#fefefe'
   },
   liLeft: {
-    width: 70,
+    width: 50,
     justifyContent: 'center',
     alignItems: 'center',
   },
   liLeftText: {
-    fontSize: 18
+    fontSize: 15
   },
   avatarBox: {
-    width: 50,
+    width: 40,
     marginLeft: 5,
     marginRight: 10,
   },
   avatar: {
-    width: 50,
-    height: 50,
-    borderRadius: 50
+    width: 40,
+    height: 40,
+    borderRadius: 40
   },
   liRight: {
     flex: 1,
   },
   username: {
-    fontSize: 18,
+    fontSize: 16,
     color: '#333',
-    lineHeight: 25,
+    lineHeight: 22,
   },
   userdesc: {
-    fontSize: 14,
+    fontSize: 13,
     color: '#888',
   },
 })
@@ -125,7 +127,7 @@ class ThisComponent extends Component {
         source={require('../images/bottom_icon2.png')}
       />
     ),
-    tabBarLabel: '动态',
+    tabBarLabel: '圈友',
     headerLeft: (
       <View style={styles.headerSideView}></View>
     ),
