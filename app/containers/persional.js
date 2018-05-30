@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
     height: 28,
   },
   header: {
-    backgroundColor: '#20a0ff',
+    backgroundColor: '#35baff',
     paddingTop: 30,
     paddingBottom: 30
   },
@@ -106,16 +106,18 @@ const styles = StyleSheet.create({
     width: 38,
     height: 38,
     borderRadius: 38,
+    borderColor: '#fff',
+    borderWidth: 1
   },
   dynamic_head_center: {
 
   },
   dynamic_head_center_name: {
-    color: '#333',
+    color: '#555',
     fontSize: 15
   },
   dynamic_head_center_desc: {
-    color: '#888',
+    color: '#999',
     fontSize: 13
   },
   dynamic_content: {
@@ -128,19 +130,20 @@ const styles = StyleSheet.create({
     marginLeft: -3
   },
   dynamic_content_item_box: {
-    position: 'relative',
+    // position: 'relative',
     width: '25%',
     height: 0,
     margin: 0,
     paddingTop: '25%',
     justifyContent: 'center',
     alignItems: 'center',
-    overflow: 'hidden'
+    overflow: 'hidden',
   },
   dynamic_content_item: {
     position: 'absolute',
     width: 108,
-    height: 108
+    height: 108,
+    overflow: 'hidden',
   }
 
 

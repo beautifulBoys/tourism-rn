@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
     height: 25,
   },
   header: {
-    backgroundColor: '#20a0ff',
+    backgroundColor: '#35baff',
     paddingTop: 30,
     paddingBottom: 30
   },
@@ -100,11 +100,21 @@ const styles = StyleSheet.create({
   btn: {
     width: 300
   },
+  content: {
+    display: 'flex',
+    flexDirection: 'row',
+    marginLeft: -1 / PixelRatio.get(),
+    marginRight: -1 / PixelRatio.get()
+  },
   itemBox: {
-    paddingVertical: 14,
+    width: '33.45%',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'red'
+    borderColor: '#ddd',
+    borderWidth: 1 / PixelRatio.get(),
+    marginLeft: -1 / PixelRatio.get(),
+    paddingTop: 14,
+    paddingBottom: 14
   },
   viewActive: {
     backgroundColor: '#fff'
@@ -134,7 +144,7 @@ class ThisComponent extends Component {
     ),
     tabBarLabel: '动态',
     headerStyle: {
-      backgroundColor: '#20a0ff',
+      backgroundColor: '#35baff',
       height: 0
     }
   }
@@ -171,7 +181,27 @@ class ThisComponent extends Component {
             <View key={index} style={styles.menu}>
               <View style={styles.title}><Text style={styles.titleText}>{item.title}</Text></View>
               <View style={styles.content}>
-                <Grid
+
+                {
+                  item.arr.map((dataItem, itemIndex) => {
+                    return (
+                      <View
+                        key={itemIndex}
+                        style={[styles.itemBox]}
+                        onClick={() => {
+                          this.listItemClickEvent(dataItem)
+                        }}
+                      >
+                        <Image source={{uri: dataItem.icon}} style={styles.icon1}/>
+                        <View style={styles.textBox}>
+                          <Text style={{fontSize: 16}}>{dataItem.text}</Text>
+                        </View>
+                      </View>
+                    )
+                  })
+                }
+
+                {/* <Grid
                   data={item.arr} columnNum={3}
                   renderItem={dataItem => {
                     let status = false
@@ -190,7 +220,7 @@ class ThisComponent extends Component {
                         </View>
                     )}
                   }
-                />
+                /> */}
               </View>
             </View>
           ))

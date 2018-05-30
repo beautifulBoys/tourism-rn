@@ -37,16 +37,18 @@ const styles = StyleSheet.create({
     width: 38,
     height: 38,
     borderRadius: 38,
+    borderWidth: 1,
+    borderColor: '#fff'
   },
   dynamic_head_center: {
 
   },
   dynamic_head_center_name: {
-    color: '#333',
+    color: '#555',
     fontSize: 15
   },
   dynamic_head_center_desc: {
-    color: '#888',
+    color: '#999',
     fontSize: 13
   },
   ImageList: {
@@ -72,11 +74,11 @@ const styles = StyleSheet.create({
   },
   titleText: {
     fontSize: 15,
-    color: '#333'
+    color: '#666'
   },
   dateText: {
     fontSize: 13,
-    color: '#888'
+    color: '#999'
   },
   control: {
     flexDirection: 'row',
@@ -117,7 +119,7 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 14,
-    color: '#333',
+    color: '#666',
     lineHeight: 35,
     marginLeft: 8
   }

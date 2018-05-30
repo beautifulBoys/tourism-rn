@@ -142,7 +142,7 @@ class ThisComponent extends Component {
       </View>
     ),
     headerStyle: {
-      backgroundColor: '#20a0ff'
+      backgroundColor: '#35baff'
     }
   }
   listItemClickEvent (item) {

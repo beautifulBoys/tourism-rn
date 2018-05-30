@@ -1,5 +1,13 @@
 import React, { Component } from 'react'
-import { StyleSheet, View, Image, Text, ScrollView, FlatList } from 'react-native'
+import {
+  StyleSheet,
+  View,
+  Image,
+  Text,
+  ScrollView,
+  FlatList,
+  StatusBar
+} from 'react-native'
 import { connect } from 'react-redux'
 import { Button } from '../components'
 
@@ -30,7 +38,7 @@ const styles = StyleSheet.create({
     color: '#fff'
   },
   headerSideView: {
-    width: 70,
+    width: 55,
     height: 55,
     justifyContent: 'center',
     alignItems: 'center'
@@ -82,7 +90,7 @@ class ThisComponent extends Component {
       </View>
     ),
     headerStyle: {
-      backgroundColor: '#20a0ff'
+      backgroundColor: '#35baff'
     }
   }
 
@@ -96,19 +104,24 @@ class ThisComponent extends Component {
   }
   render() {
     return (
-      <ScrollView
-        contentContainerStyle={styles.container}
-        automaticallyAdjustContentInsets={true}
-        scrollEventThrottle={500}
-      >
-        {
-          this.state.list.map((item, index) => (
-            <View style={styles.li} key={index}>
-              <DynamicItem data={item}></DynamicItem>
-            </View>
-          ))
-        }
-      </ScrollView>
+      <View>
+        <StatusBar barStyle={'light-content'} translucent={true} />
+        <ScrollView
+          contentContainerStyle={styles.container}
+          automaticallyAdjustContentInsets={true}
+          scrollEventThrottle={500}
+        >
+
+          {
+            this.state.list.map((item, index) => (
+              <View style={styles.li} key={index}>
+                <DynamicItem data={item}></DynamicItem>
+              </View>
+            ))
+          }
+        </ScrollView>
+      </View>
+
     )
   }
 }
